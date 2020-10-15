@@ -89,6 +89,7 @@ footer{
     /*Don't forget to vertically and horizontally alight the card*/
     justify-content: center;
     align-items: center;
+    align-content: center;
     flex-wrap: wrap;
    
 }
@@ -167,11 +168,7 @@ header{
   border-bottom: 3px solid #50C7C7;
   /*Your  code here again.*/
   display: space-between;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
- 
-
+  justify-content: stretch;
  
 }
 
@@ -215,16 +212,16 @@ header{
   /* Navbar */
   header{
     /*Your code here again.*/
-    justify-content: flex-start; 
-    display: space-between;
+    display: flex;
     flex-direction: row;
 
   }
 
   .nav_links{
-    /*Your code here again.*/ 
-    flex-direction: column;
-    align-items: flex-end;
+    /*Your code here again.*/
+    display: space-between;
+    flex-direction: row;
+    justify-content: flex-end;
   }
 
   .nav_item a{
