@@ -176,7 +176,8 @@ header{
   /*Your code here again.*/
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
  
 }
 
@@ -193,7 +194,7 @@ header{
 }
 
 
-  /* Desktop View! */
+  /* Desktop View!---------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 850px){
 
   /* Cards! */
@@ -212,16 +213,14 @@ header{
   /* Navbar */
   header{
     /*Your code here again.*/
-    display: flex;
+    display: space-between;
     flex-direction: row;
-
   }
 
   .nav_links{
     /*Your code here again.*/
-    display: space-between;
+    display: flex;
     flex-direction: row;
-    justify-content: flex-end;
   }
 
   .nav_item a{
