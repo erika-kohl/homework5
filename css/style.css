@@ -167,8 +167,8 @@ header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
   /*Your  code here again.*/
-  display: space-between;
-  justify-content: stretch;
+ /* justify-content: stretch;*/
+  justify-content: space-between;
  
 }
 
@@ -176,7 +176,6 @@ header{
   /*Your code here again.*/
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   align-items: center;
  
 }
@@ -200,7 +199,6 @@ header{
   /* Cards! */
   .card {
     /*Your  code here again.*/
-    display: flex;
     flex-basis: 225px;
     
   }
@@ -213,13 +211,12 @@ header{
   /* Navbar */
   header{
     /*Your code here again.*/
-    display: space-between;
+    justify-content: space-between;
     flex-direction: row;
   }
 
   .nav_links{
     /*Your code here again.*/
-    display: flex;
     flex-direction: row;
   }
 
@@ -228,6 +225,7 @@ header{
   }
 }
 
+/* Printing Display!---------------------------------------------------------------------------------------------------------- */
 @media print { 
   .card {
     flex-basis: 200px;
@@ -239,7 +237,8 @@ header{
   }
 
   .pricing{
-    align-items: center;
+    align-items: flex-start;
+    
   }
 
   .gallery{
