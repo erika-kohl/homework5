@@ -167,7 +167,6 @@ header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
   /*Your  code here again.*/
- /* justify-content: stretch;*/
   justify-content: space-between;
  
 }
@@ -211,12 +210,14 @@ header{
   /* Navbar */
   header{
     /*Your code here again.*/
+    display: flex;
     justify-content: space-between;
     flex-direction: row;
   }
 
   .nav_links{
     /*Your code here again.*/
+    display: flex;
     flex-direction: row;
   }
 
