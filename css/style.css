@@ -167,7 +167,11 @@ header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
   /*Your  code here again.*/
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+ 
  
 }
 
@@ -213,6 +217,7 @@ header{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    align-items: center;
   }
 
   .nav_links{
